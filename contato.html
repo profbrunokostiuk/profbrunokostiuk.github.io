@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        .menu {
+            text-align: center;
+        }
+
+        .menu-item {
+            display: inline-block;
+            border: 1px solid black;
+            background-color: gray;
+        }
+        @font-face {
+            font-family: myFirstFont;
+            src: url(fonte/Glowdex.ttf);
+        }
+        div {
+            font-family: myFirstFont;
+            font-size: 200%;
+        }
+        .emoji{
+            font-size: 500%;
+        }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+          <li class="menu-item">
+            <a href="sobremim.html">Sobre Mim</a>
+          </li>
+          <li class="menu-item">
+            <a href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="menu-item">
+            <a href="portifolio.html">Portifólio</a>
+          </li>
+          <li class="menu-item">
+            <a href="contato.html">Contato</a>
+          </li>
+    </ul>
+    <div>Para falar comigo, entre em contato:</div>
+    <p class="emoji">&#128001</p>
+    <form>
+        <label for="nome">Nome: </label>
+        <input id="nome" type="text">
+    </form>
+</body>
+</html>

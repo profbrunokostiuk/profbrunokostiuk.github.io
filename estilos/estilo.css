@@ -1,0 +1,26 @@
+/* Elemento */
+h1,h2{
+    margin: 50px;
+    color: red;
+}
+
+p{
+    color:violet;
+}
+
+/* ID */
+#meuid{
+    color:olive;
+}
+
+/* Classe */
+.minhaclasse{
+    color: green;
+    text-align: justify;
+}
+
+
+/* Universal */
+*{
+    color: blue;
+}
